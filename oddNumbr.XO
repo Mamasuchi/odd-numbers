@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+
+	int number;
+	cout << " Enter a number: ";
+	cin >> number;
+
+	for(; number >= 1; number=number-1){
+		if(number%2==1){
+			cout << " " << number;
+		}
+	}
+
+
+	return 0;}
+
